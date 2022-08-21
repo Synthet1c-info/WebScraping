@@ -21,7 +21,7 @@ webdriver_service = Service(f"{homedir}/chromedriver/stable/chromedriver")
 driver = webdriver.Chrome(service=webdriver_service, options=chrome_options)
 
 # Fetch web page
-driver.get('https://YOUR_URL')
+driver.get('https://google.com')
 
 # Get web page url and title
 print("Current URL: ", driver.current_url)
